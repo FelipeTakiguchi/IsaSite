@@ -3,6 +3,10 @@ body{
     font-size: 18px;
 }
 
+.float-form{
+    position: fixed;
+}
+
 .main-image{
     width: 100%;
     border-radius: 4px;
@@ -67,4 +71,34 @@ body{
     position: fixed;
     bottom: 0px;
     right: 10px;
+}
+
+#float-button{
+    position: fixed;
+    right: 0px;
+    border: none;
+    background-color:floralwhite;
+    border-radius: 9px;
+    width: 130px;
+    font-size: 24px;
+    right: 10px;
+}
+
+#float-button:hover{
+    opacity: 50%;
+}
+
+#password{
+    border-radius: 9px;
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    border: none;
+    padding: 3px;
+}
+
+#url-link{
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 15px;
 }
