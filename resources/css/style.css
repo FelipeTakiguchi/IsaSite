@@ -5,6 +5,8 @@ body{
 
 .float-form{
     position: fixed;
+    left: 20px;
+    top: 0px
 }
 
 .main-image{
@@ -101,4 +103,11 @@ body{
     font-size: 22px;
     text-decoration: none;
     margin-left: 15px;
+}
+
+.song{
+    width: 270px;
+    position: fixed;
+    right: 0px;
+    bottom: 30px;
 }
