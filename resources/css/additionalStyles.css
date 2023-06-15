@@ -14,7 +14,16 @@
 }
 
 #return{
-    font-size: 30px;
+    font-size: 4vh;
     margin: 10px;
     text-decoration: none;
+}
+
+.row{
+    display: flex;
+}
+
+.card{
+    
+    height: 100%;
 }

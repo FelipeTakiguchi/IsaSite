@@ -27,7 +27,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     element2.hidden = true; 
     element3.hidden = true;
     input.hidden = true;
-    p.hidden = true;
+    p.hidden = true;    
     url.hidden = true;
 });
 
@@ -67,6 +67,6 @@ input.addEventListener("change", (event) => {
     console.log(value);
     if(value == "2022-10-09"){
         url.hidden = false;
-        url.outerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Y4EHWRsLcE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';      
+        url.outerHTML = '<iframe width="560" height="315" style="width: 50vh; heigth: 37vh;" src="https://www.youtube.com/embed/Y4EHWRsLcE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';      
     }
 });

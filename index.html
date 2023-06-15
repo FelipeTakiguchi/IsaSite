@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-
-
 </head>
 <body class="gradient">
-    <button id="float-button" onclick="showInput()">Memórias</button>
-    <div class="float-form">
-        <p id="hidden-p">Dica: Nosso começo</p>
-        <input id="password" type="date">
+    <div class="spaced-container">
+        <button id="float-button" onclick="showInput()">Memórias</button>
+        <div class="float-form">
+            <p id="hidden-p">Dica: Nosso começo</p>
+            <input id="password" type="date">
+        </div>
     </div>
     <h1 class="center">Te amo!!</h1>
     <div class="center">
@@ -37,7 +37,7 @@
     </div>
     <figure class="song">
         <marquee>Tocando: Entrelacos - Scalene (Escolhi essa pois me faz pensar em ti)</marquee>
-        <audio controls autoplay>
+        <audio controls autoplay class="player">
             <source src="resources/song/Entrelacos.mp3" type="audio/mp3">
             Your browser does not support the audio element.
         </audio>
