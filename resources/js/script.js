@@ -16,7 +16,7 @@ const frases = ["Sinto saudades do seu cheiro", "To com saudadessss", "Te abraç
     "Vamos assistir um filminho e dormir juntinhos?", "Quero te fazer feliz todos os dias", "Oie <3", "Ta procurando alguma frase? hehe",
     "Parabéns!! vc ganhou o sorteio, pode me levar pra casa", "Será que vc entra aqui todos os dias?...", "Fiz esse site pra ti pq te amo muito",
     "Ainda ouço nossa playlist e quando ouço penso em vc", "Obrigado pelas suas cartas!!", "O Yoshi que vc me deu foi a coisa mais fofa que ja me deram",
-    "Mal espero pra te ver dnv"];
+    "Mal espero pra te ver dnv", "O padol foi mt divertido, obrigado!", "Boa sorte na sua viagem até Brasília"];
 
 function getRandomArbitrary(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
